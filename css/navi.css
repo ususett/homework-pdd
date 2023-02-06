@@ -1,0 +1,40 @@
+/* 导航栏样式 */
+body > nav{
+    position: fixed; 
+    bottom: 1px;
+    width: 100%;
+    height: auto;
+ }
+ nav {
+     z-index: 1;  
+     background-color: #fff;
+ }
+ nav ul{
+     display: flex;
+     height: 100%;
+     width: 100%;
+ }
+ nav li {
+     flex-grow: 1;
+     
+    
+ }
+ nav .iconfont{
+     font-size: 250%;
+     flex: 100%;
+      color: #c00; 
+     display: block;
+     text-align: center;
+ }
+ nav .txt{
+    flex: 80%;
+     color: #666;
+     text-align: center;
+     
+     display: block;
+     flex: 50%;
+ }
+ /* 导航栏动画 */
+ /* nav li .active .icon{
+     color: #ccc;
+ } */

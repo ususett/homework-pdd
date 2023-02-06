@@ -1,0 +1,27 @@
+/* sfsf */
+
+header{
+  background-color: red;
+  color: antiquewhite;
+  height: 3rem;
+}
+   
+   .icon-fanhuijian{
+    font-size: 3rem;
+    display: block;
+   
+   }
+.title{
+  text-align: center;
+}
+.show{
+display: flex;
+height: 30rem;
+ height: fit-content;
+}
+.show img{
+ 
+}
+.text{
+
+}

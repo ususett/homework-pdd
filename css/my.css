@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(216, 191, 191, 0.843);
+}
+
+.box {
+    background-color: #fff;
+
+    height: 80%;
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    box-shadow: 3px 1px 10px rgba(29, 159, 109, 0.813);
+    border-radius: 20px;
+}
+
+img {
+
+    position: fixed;
+    width: 60%;
+    left: 20%;
+    top: 10%;
+
+}
+
+input {
+    position: fixed;
+    width: 40%;
+    left: 30%;
+    top: 40%;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    outline: none;
+    color: #666;
+}
+
+.psw {
+    top: 45%
+}
+
+.btn {
+    position: fixed;
+    width: 40%;
+    left: 30%;
+    top: 55%;
+    border-radius: 5px;
+    border: none;
+    background-color: #3897F1;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.wei {
+    top: 60%;
+    background-color: green;
+}
+
+p {
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    top: 80%;
+    font-size: small;
+    text-align: center;
+    color: #666;
+}

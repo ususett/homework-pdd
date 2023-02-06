@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+    <title>多多视频</title>
+    <link rel="stylesheet" href="./css/pub.css">
+    <link rel="stylesheet" href="./css/goods.css">
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./js/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <header>
+        <span class="iconfont icon-fanhuijian"></span>
+        <h3 class="title">标题</h3>
+    </header>
+
+
+    <div class="show" class="swiper scroll">
+        <div class="swiper-wrapper">
+            <img src="./img/1.jpg" alt="商品图"class="swiper-slide">
+            <img src="./img/2.jpg" alt="商品图"class="swiper-slide">
+        </div>
+    </div>
+    </div>
+    <p class="text">商品名称</p>
+</body>
+<script src="./js/swiper/swiper-bundle.min.js"></script>
+<script>
+    // 返回键
+    var back = document.getElementsByClassName("icon-fanhuijian")[0]
+    back.onclick = function () {
+        window.history.go(-1);
+    }
+    // 图片滚动
+    var swiper = new Swiper(".show", {
+        slidesPerView: 1,
+        spaceBetween: 0,   
+
+      });
+</script>
+
+</html>
